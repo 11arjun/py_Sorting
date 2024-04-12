@@ -1,5 +1,9 @@
 # Write a Python function that takes a list of integers and returns the second-largest number in the list.
-numbers = [100, 50, 20, 80, 80, 15,1,2,3,33434,43434,434342334,56546,56,87,8,6782,32323]
+# Lets take 5 inputs from the user
+numbers = []
+for i in  range(5):
+    User  = input("Enter Five Numbers :")
+    numbers.append(int(User))
 # we can use sort function for ascending order
 #numbers.sort() 
 #Initially lets separate the unique
